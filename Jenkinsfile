@@ -9,7 +9,7 @@ pipeline {
         }
         stage('run') {
             steps {
-                echo 'Running the compiled java code---.'
+                echo 'Running the compiled java code---. Webhook denemesi...'
                 sh 'java Hello'
             }
         }
